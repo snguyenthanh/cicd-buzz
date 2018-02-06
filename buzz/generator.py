@@ -8,6 +8,7 @@ adverbs = ('remarkably', 'enormously', 'substantially', 'significantly',
 
 verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
+#  This is from branch Develop
 def sample(l, n = 1):
     result = random.sample(l, n)
     if n == 1:
